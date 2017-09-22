@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F68F64B1F74EB19006A4C4C /* FortlogicFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68F6411F74EB19006A4C4C /* FortlogicFoundation.framework */; };
-		1F68F6501F74EB19006A4C4C /* FortlogicFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F64F1F74EB19006A4C4C /* FortlogicFoundationTests.swift */; };
 		1F68F6521F74EB19006A4C4C /* FortlogicFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F68F6441F74EB19006A4C4C /* FortlogicFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F68F65C1F74EC5F006A4C4C /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F65B1F74EC5F006A4C4C /* URL.swift */; };
+		1F68F65E1F74F198006A4C4C /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F65D1F74F198006A4C4C /* URLTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +28,9 @@
 		1F68F6441F74EB19006A4C4C /* FortlogicFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FortlogicFoundation.h; sourceTree = "<group>"; };
 		1F68F6451F74EB19006A4C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F68F64A1F74EB19006A4C4C /* FortlogicFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortlogicFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F68F64F1F74EB19006A4C4C /* FortlogicFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortlogicFoundationTests.swift; sourceTree = "<group>"; };
 		1F68F6511F74EB19006A4C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F68F65B1F74EC5F006A4C4C /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		1F68F65D1F74F198006A4C4C /* URLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				1F68F6441F74EB19006A4C4C /* FortlogicFoundation.h */,
+				1F68F65B1F74EC5F006A4C4C /* URL.swift */,
 				1F68F6451F74EB19006A4C4C /* Info.plist */,
 			);
 			path = FortlogicFoundation;
@@ -80,7 +83,7 @@
 		1F68F64E1F74EB19006A4C4C /* FortlogicFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
-				1F68F64F1F74EB19006A4C4C /* FortlogicFoundationTests.swift */,
+				1F68F65D1F74F198006A4C4C /* URLTests.swift */,
 				1F68F6511F74EB19006A4C4C /* Info.plist */,
 			);
 			path = FortlogicFoundationTests;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					1F68F6401F74EB19006A4C4C = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1F68F6491F74EB19006A4C4C = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F68F65C1F74EC5F006A4C4C /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F68F6501F74EB19006A4C4C /* FortlogicFoundationTests.swift in Sources */,
+				1F68F65E1F74F198006A4C4C /* URLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +338,7 @@
 		1F68F6561F74EB19006A4C4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -347,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FortlogicFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -354,6 +361,7 @@
 		1F68F6571F74EB19006A4C4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -375,6 +383,7 @@
 		1F68F6591F74EB19006A4C4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = FortlogicFoundationTests/Info.plist;
@@ -388,6 +397,7 @@
 		1F68F65A1F74EB19006A4C4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = FortlogicFoundationTests/Info.plist;
