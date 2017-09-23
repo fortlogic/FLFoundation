@@ -11,6 +11,14 @@
 		1F68F6521F74EB19006A4C4C /* FortlogicFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F68F6441F74EB19006A4C4C /* FortlogicFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F68F65C1F74EC5F006A4C4C /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F65B1F74EC5F006A4C4C /* URL.swift */; };
 		1F68F65E1F74F198006A4C4C /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F65D1F74F198006A4C4C /* URLTests.swift */; };
+		1F68F6701F74FDA8006A4C4C /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F66F1F74FDA8006A4C4C /* Sequence.swift */; };
+		1F68F6731F74FDE8006A4C4C /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 1F68F6721F74FDE7006A4C4C /* Cartfile */; };
+		1F68F6751F74FE70006A4C4C /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 1F68F6741F74FE70006A4C4C /* Cartfile.resolved */; };
+		1F68F67B1F74FEB6006A4C4C /* SwiftCheck.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1F68F67A1F74FEB6006A4C4C /* SwiftCheck.framework.dSYM */; };
+		1F68F67D1F74FECC006A4C4C /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68F6781F74FEAA006A4C4C /* SwiftCheck.framework */; };
+		1F68F6821F74FEFC006A4C4C /* SwiftCheck.framework.dSYM in Copy Debug Symbols */ = {isa = PBXBuildFile; fileRef = 1F68F67A1F74FEB6006A4C4C /* SwiftCheck.framework.dSYM */; };
+		1F68F6841F74FF28006A4C4C /* SequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F6831F74FF28006A4C4C /* SequenceTests.swift */; };
+		1F68F6851F74FF7C006A4C4C /* SwiftCheck.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68F6781F74FEAA006A4C4C /* SwiftCheck.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +31,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1F68F67E1F74FED0006A4C4C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F68F6851F74FF7C006A4C4C /* SwiftCheck.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F68F6811F74FEED006A4C4C /* Copy Debug Symbols */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				1F68F6821F74FEFC006A4C4C /* SwiftCheck.framework.dSYM in Copy Debug Symbols */,
+			);
+			name = "Copy Debug Symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1F68F6411F74EB19006A4C4C /* FortlogicFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FortlogicFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F68F6441F74EB19006A4C4C /* FortlogicFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FortlogicFoundation.h; sourceTree = "<group>"; };
@@ -31,6 +64,12 @@
 		1F68F6511F74EB19006A4C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F68F65B1F74EC5F006A4C4C /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		1F68F65D1F74F198006A4C4C /* URLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
+		1F68F66F1F74FDA8006A4C4C /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		1F68F6721F74FDE7006A4C4C /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		1F68F6741F74FE70006A4C4C /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		1F68F6781F74FEAA006A4C4C /* SwiftCheck.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCheck.framework; path = Carthage/Build/Mac/SwiftCheck.framework; sourceTree = "<group>"; };
+		1F68F67A1F74FEB6006A4C4C /* SwiftCheck.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftCheck.framework.dSYM; path = Carthage/Build/Mac/SwiftCheck.framework.dSYM; sourceTree = "<group>"; };
+		1F68F6831F74FF28006A4C4C /* SequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F68F64B1F74EB19006A4C4C /* FortlogicFoundation.framework in Frameworks */,
+				1F68F67D1F74FECC006A4C4C /* SwiftCheck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +97,9 @@
 			children = (
 				1F68F6431F74EB19006A4C4C /* FortlogicFoundation */,
 				1F68F64E1F74EB19006A4C4C /* FortlogicFoundationTests */,
+				1F68F6711F74FDD4006A4C4C /* Dependencies */,
 				1F68F6421F74EB19006A4C4C /* Products */,
+				1F68F67C1F74FECC006A4C4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				1F68F6441F74EB19006A4C4C /* FortlogicFoundation.h */,
+				1F68F66F1F74FDA8006A4C4C /* Sequence.swift */,
 				1F68F65B1F74EC5F006A4C4C /* URL.swift */,
 				1F68F6451F74EB19006A4C4C /* Info.plist */,
 			);
@@ -83,10 +126,45 @@
 		1F68F64E1F74EB19006A4C4C /* FortlogicFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
+				1F68F6831F74FF28006A4C4C /* SequenceTests.swift */,
 				1F68F65D1F74F198006A4C4C /* URLTests.swift */,
 				1F68F6511F74EB19006A4C4C /* Info.plist */,
 			);
 			path = FortlogicFoundationTests;
+			sourceTree = "<group>";
+		};
+		1F68F6711F74FDD4006A4C4C /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1F68F6721F74FDE7006A4C4C /* Cartfile */,
+				1F68F6741F74FE70006A4C4C /* Cartfile.resolved */,
+				1F68F6761F74FE81006A4C4C /* Frameworks */,
+				1F68F6771F74FE87006A4C4C /* Debug Symbols */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		1F68F6761F74FE81006A4C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F68F6781F74FEAA006A4C4C /* SwiftCheck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F68F6771F74FE87006A4C4C /* Debug Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				1F68F67A1F74FEB6006A4C4C /* SwiftCheck.framework.dSYM */,
+			);
+			name = "Debug Symbols";
+			sourceTree = "<group>";
+		};
+		1F68F67C1F74FECC006A4C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +205,9 @@
 			buildPhases = (
 				1F68F6461F74EB19006A4C4C /* Sources */,
 				1F68F6471F74EB19006A4C4C /* Frameworks */,
+				1F68F67E1F74FED0006A4C4C /* Embed Frameworks */,
 				1F68F6481F74EB19006A4C4C /* Resources */,
+				1F68F6811F74FEED006A4C4C /* Copy Debug Symbols */,
 			);
 			buildRules = (
 			);
@@ -183,6 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F68F6731F74FDE8006A4C4C /* Cartfile in Resources */,
+				1F68F67B1F74FEB6006A4C4C /* SwiftCheck.framework.dSYM in Resources */,
+				1F68F6751F74FE70006A4C4C /* Cartfile.resolved in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F68F6701F74FDA8006A4C4C /* Sequence.swift in Sources */,
 				1F68F65C1F74EC5F006A4C4C /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F68F6841F74FF28006A4C4C /* SequenceTests.swift in Sources */,
 				1F68F65E1F74F198006A4C4C /* URLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +431,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = FortlogicFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -369,6 +458,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = FortlogicFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -386,6 +479,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = FortlogicFoundationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FortlogicFoundationTests;
@@ -400,6 +497,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = FortlogicFoundationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FortlogicFoundationTests;
