@@ -1,6 +1,6 @@
 //
 //  URL.swift
-//  FortlogicFoundation
+//  FLFoundation
 //
 //  Created by Matias Eyzaguirre on 9/22/17.
 //  Copyright © 2017 Matias Eyzaguirre. All rights reserved.

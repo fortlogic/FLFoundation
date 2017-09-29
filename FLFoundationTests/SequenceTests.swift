@@ -1,6 +1,6 @@
 //
 //  SequenceTests.swift
-//  FortlogicFoundationTests
+//  FLFoundationTests
 //
 //  Created by Matias Eyzaguirre on 9/22/17.
 //  Copyright © 2017 Matias Eyzaguirre. All rights reserved.
@@ -9,7 +9,7 @@
 import SwiftCheck
 import XCTest
 
-import FortlogicFoundation
+import FLFoundation
 
 class SequenceTests: XCTestCase {
   
