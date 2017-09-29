@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F68F6401F74EB19006A4C4C"
-               BuildableName = "FortlogicFoundation.framework"
-               BlueprintName = "FortlogicFoundation"
-               ReferencedContainer = "container:FortlogicFoundation.xcodeproj">
+               BuildableName = "FLFoundation.framework"
+               BlueprintName = "FLFoundation"
+               ReferencedContainer = "container:FLFoundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F68F6491F74EB19006A4C4C"
-               BuildableName = "FortlogicFoundationTests.xctest"
-               BlueprintName = "FortlogicFoundationTests"
-               ReferencedContainer = "container:FortlogicFoundation.xcodeproj">
+               BuildableName = "FLFoundationTests.xctest"
+               BlueprintName = "FLFoundationTests"
+               ReferencedContainer = "container:FLFoundation.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F68F6401F74EB19006A4C4C"
-            BuildableName = "FortlogicFoundation.framework"
-            BlueprintName = "FortlogicFoundation"
-            ReferencedContainer = "container:FortlogicFoundation.xcodeproj">
+            BuildableName = "FLFoundation.framework"
+            BlueprintName = "FLFoundation"
+            ReferencedContainer = "container:FLFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F68F6401F74EB19006A4C4C"
-            BuildableName = "FortlogicFoundation.framework"
-            BlueprintName = "FortlogicFoundation"
-            ReferencedContainer = "container:FortlogicFoundation.xcodeproj">
+            BuildableName = "FLFoundation.framework"
+            BlueprintName = "FLFoundation"
+            ReferencedContainer = "container:FLFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F68F6401F74EB19006A4C4C"
-            BuildableName = "FortlogicFoundation.framework"
-            BlueprintName = "FortlogicFoundation"
-            ReferencedContainer = "container:FortlogicFoundation.xcodeproj">
+            BuildableName = "FLFoundation.framework"
+            BlueprintName = "FLFoundation"
+            ReferencedContainer = "container:FLFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
