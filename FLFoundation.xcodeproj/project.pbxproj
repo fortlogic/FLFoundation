@@ -10,6 +10,9 @@
 		1F0FF7BD1F95716B00C34834 /* FLAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FF7B41F95716B00C34834 /* FLAppKit.framework */; };
 		1F0FF7C21F95716B00C34834 /* FLAppKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7C11F95716B00C34834 /* FLAppKitTests.swift */; };
 		1F0FF7C41F95716B00C34834 /* FLAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0FF7B61F95716B00C34834 /* FLAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0FF7D21F95725C00C34834 /* NSEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7CE1F9571E900C34834 /* NSEvent.swift */; };
+		1F0FF7D41F95729700C34834 /* NSGraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */; };
+		1F0FF7D51F9572AE00C34834 /* NSRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7CB1F9571B700C34834 /* NSRect.swift */; };
 		1F68F64B1F74EB19006A4C4C /* FLFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68F6411F74EB19006A4C4C /* FLFoundation.framework */; };
 		1F68F6521F74EB19006A4C4C /* FLFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F68F6441F74EB19006A4C4C /* FLFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F68F65C1F74EC5F006A4C4C /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F65B1F74EC5F006A4C4C /* URL.swift */; };
@@ -72,6 +75,10 @@
 		1F0FF7BC1F95716B00C34834 /* FLAppKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLAppKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0FF7C11F95716B00C34834 /* FLAppKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLAppKitTests.swift; sourceTree = "<group>"; };
 		1F0FF7C31F95716B00C34834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0FF7CB1F9571B700C34834 /* NSRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRect.swift; sourceTree = "<group>"; };
+		1F0FF7CE1F9571E900C34834 /* NSEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSEvent.swift; sourceTree = "<group>"; };
+		1F0FF7D01F95720C00C34834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGraphicsContext.swift; sourceTree = "<group>"; };
 		1F68F6411F74EB19006A4C4C /* FLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F68F6441F74EB19006A4C4C /* FLFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLFoundation.h; sourceTree = "<group>"; };
 		1F68F6451F74EB19006A4C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				1F0FF7B61F95716B00C34834 /* FLAppKit.h */,
+				1F0FF7CE1F9571E900C34834 /* NSEvent.swift */,
+				1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */,
+				1F0FF7CB1F9571B700C34834 /* NSRect.swift */,
 				1F0FF7B71F95716B00C34834 /* Info.plist */,
 			);
 			path = FLAppKit;
@@ -215,6 +225,7 @@
 		1F68F67C1F74FECC006A4C4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F0FF7D01F95720C00C34834 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -327,6 +338,7 @@
 				TargetAttributes = {
 					1F0FF7B31F95716B00C34834 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1F0FF7BB1F95716B00C34834 = {
@@ -402,6 +414,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0FF7D21F95725C00C34834 /* NSEvent.swift in Sources */,
+				1F0FF7D41F95729700C34834 /* NSGraphicsContext.swift in Sources */,
+				1F0FF7D51F9572AE00C34834 /* NSRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +465,7 @@
 		1F0FF7C51F95716B00C34834 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -465,6 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FLAppKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -472,6 +489,7 @@
 		1F0FF7C61F95716B00C34834 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -494,6 +512,7 @@
 		1F0FF7C71F95716B00C34834 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = FLAppKitTests/Info.plist;
@@ -508,6 +527,7 @@
 		1F0FF7C81F95716B00C34834 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = FLAppKitTests/Info.plist;
