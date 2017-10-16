@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0FF7BD1F95716B00C34834 /* FLAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FF7B41F95716B00C34834 /* FLAppKit.framework */; };
+		1F0FF7C21F95716B00C34834 /* FLAppKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7C11F95716B00C34834 /* FLAppKitTests.swift */; };
+		1F0FF7C41F95716B00C34834 /* FLAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0FF7B61F95716B00C34834 /* FLAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0FF7D21F95725C00C34834 /* NSEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7CE1F9571E900C34834 /* NSEvent.swift */; };
+		1F0FF7D41F95729700C34834 /* NSGraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */; };
+		1F0FF7D51F9572AE00C34834 /* NSRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7CB1F9571B700C34834 /* NSRect.swift */; };
 		1F68F64B1F74EB19006A4C4C /* FLFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68F6411F74EB19006A4C4C /* FLFoundation.framework */; };
 		1F68F6521F74EB19006A4C4C /* FLFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F68F6441F74EB19006A4C4C /* FLFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F68F65C1F74EC5F006A4C4C /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F65B1F74EC5F006A4C4C /* URL.swift */; };
@@ -21,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1F0FF7BE1F95716B00C34834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F68F6381F74EB19006A4C4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0FF7B31F95716B00C34834;
+			remoteInfo = FLAppKit;
+		};
 		1F68F64C1F74EB19006A4C4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F68F6381F74EB19006A4C4C /* Project object */;
@@ -56,6 +69,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F0FF7B41F95716B00C34834 /* FLAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0FF7B61F95716B00C34834 /* FLAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAppKit.h; sourceTree = "<group>"; };
+		1F0FF7B71F95716B00C34834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0FF7BC1F95716B00C34834 /* FLAppKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLAppKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0FF7C11F95716B00C34834 /* FLAppKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLAppKitTests.swift; sourceTree = "<group>"; };
+		1F0FF7C31F95716B00C34834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0FF7CB1F9571B700C34834 /* NSRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRect.swift; sourceTree = "<group>"; };
+		1F0FF7CE1F9571E900C34834 /* NSEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSEvent.swift; sourceTree = "<group>"; };
+		1F0FF7D01F95720C00C34834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGraphicsContext.swift; sourceTree = "<group>"; };
 		1F68F6411F74EB19006A4C4C /* FLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F68F6441F74EB19006A4C4C /* FLFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLFoundation.h; sourceTree = "<group>"; };
 		1F68F6451F74EB19006A4C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +95,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F0FF7B01F95716B00C34834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0FF7B91F95716B00C34834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0FF7BD1F95716B00C34834 /* FLAppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F68F63D1F74EB19006A4C4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,12 +129,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0FF7B51F95716B00C34834 /* FLAppKit */ = {
+			isa = PBXGroup;
+			children = (
+				1F0FF7B61F95716B00C34834 /* FLAppKit.h */,
+				1F0FF7CE1F9571E900C34834 /* NSEvent.swift */,
+				1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */,
+				1F0FF7CB1F9571B700C34834 /* NSRect.swift */,
+				1F0FF7B71F95716B00C34834 /* Info.plist */,
+			);
+			path = FLAppKit;
+			sourceTree = "<group>";
+		};
+		1F0FF7C01F95716B00C34834 /* FLAppKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0FF7C11F95716B00C34834 /* FLAppKitTests.swift */,
+				1F0FF7C31F95716B00C34834 /* Info.plist */,
+			);
+			path = FLAppKitTests;
+			sourceTree = "<group>";
+		};
 		1F68F6371F74EB19006A4C4C = {
 			isa = PBXGroup;
 			children = (
 				1F68F6431F74EB19006A4C4C /* FLFoundation */,
 				1F68F64E1F74EB19006A4C4C /* FLFoundationTests */,
 				1F68F6711F74FDD4006A4C4C /* Dependencies */,
+				1F0FF7B51F95716B00C34834 /* FLAppKit */,
+				1F0FF7C01F95716B00C34834 /* FLAppKitTests */,
 				1F68F6421F74EB19006A4C4C /* Products */,
 				1F68F67C1F74FECC006A4C4C /* Frameworks */,
 			);
@@ -107,6 +168,8 @@
 			children = (
 				1F68F6411F74EB19006A4C4C /* FLFoundation.framework */,
 				1F68F64A1F74EB19006A4C4C /* FLFoundationTests.xctest */,
+				1F0FF7B41F95716B00C34834 /* FLAppKit.framework */,
+				1F0FF7BC1F95716B00C34834 /* FLAppKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +225,7 @@
 		1F68F67C1F74FECC006A4C4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F0FF7D01F95720C00C34834 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +233,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1F0FF7B11F95716B00C34834 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0FF7C41F95716B00C34834 /* FLAppKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F68F63E1F74EB19006A4C4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,6 +252,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1F0FF7B31F95716B00C34834 /* FLAppKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0FF7C91F95716B00C34834 /* Build configuration list for PBXNativeTarget "FLAppKit" */;
+			buildPhases = (
+				1F0FF7AF1F95716B00C34834 /* Sources */,
+				1F0FF7B01F95716B00C34834 /* Frameworks */,
+				1F0FF7B11F95716B00C34834 /* Headers */,
+				1F0FF7B21F95716B00C34834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAppKit;
+			productName = FLAppKit;
+			productReference = 1F0FF7B41F95716B00C34834 /* FLAppKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F0FF7BB1F95716B00C34834 /* FLAppKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0FF7CA1F95716B00C34834 /* Build configuration list for PBXNativeTarget "FLAppKitTests" */;
+			buildPhases = (
+				1F0FF7B81F95716B00C34834 /* Sources */,
+				1F0FF7B91F95716B00C34834 /* Frameworks */,
+				1F0FF7BA1F95716B00C34834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0FF7BF1F95716B00C34834 /* PBXTargetDependency */,
+			);
+			name = FLAppKitTests;
+			productName = FLAppKitTests;
+			productReference = 1F0FF7BC1F95716B00C34834 /* FLAppKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1F68F6401F74EB19006A4C4C /* FLFoundation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F68F6551F74EB19006A4C4C /* Build configuration list for PBXNativeTarget "FLFoundation" */;
@@ -228,6 +336,15 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Matias Eyzaguirre";
 				TargetAttributes = {
+					1F0FF7B31F95716B00C34834 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					1F0FF7BB1F95716B00C34834 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					1F68F6401F74EB19006A4C4C = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
@@ -253,11 +370,27 @@
 			targets = (
 				1F68F6401F74EB19006A4C4C /* FLFoundation */,
 				1F68F6491F74EB19006A4C4C /* FLFoundationTests */,
+				1F0FF7B31F95716B00C34834 /* FLAppKit */,
+				1F0FF7BB1F95716B00C34834 /* FLAppKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F0FF7B21F95716B00C34834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0FF7BA1F95716B00C34834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F68F63F1F74EB19006A4C4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +410,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F0FF7AF1F95716B00C34834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0FF7D21F95725C00C34834 /* NSEvent.swift in Sources */,
+				1F0FF7D41F95729700C34834 /* NSGraphicsContext.swift in Sources */,
+				1F0FF7D51F9572AE00C34834 /* NSRect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0FF7B81F95716B00C34834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0FF7C21F95716B00C34834 /* FLAppKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F68F63C1F74EB19006A4C4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,6 +449,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1F0FF7BF1F95716B00C34834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0FF7B31F95716B00C34834 /* FLAppKit */;
+			targetProxy = 1F0FF7BE1F95716B00C34834 /* PBXContainerItemProxy */;
+		};
 		1F68F64D1F74EB19006A4C4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F68F6401F74EB19006A4C4C /* FLFoundation */;
@@ -306,6 +462,83 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1F0FF7C51F95716B00C34834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FLAppKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FLAppKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1F0FF7C61F95716B00C34834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FLAppKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FLAppKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1F0FF7C71F95716B00C34834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FLAppKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FLAppKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1F0FF7C81F95716B00C34834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FLAppKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FLAppKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		1F68F6531F74EB19006A4C4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -510,6 +743,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F0FF7C91F95716B00C34834 /* Build configuration list for PBXNativeTarget "FLAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0FF7C51F95716B00C34834 /* Debug */,
+				1F0FF7C61F95716B00C34834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0FF7CA1F95716B00C34834 /* Build configuration list for PBXNativeTarget "FLAppKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0FF7C71F95716B00C34834 /* Debug */,
+				1F0FF7C81F95716B00C34834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1F68F63B1F74EB19006A4C4C /* Build configuration list for PBXProject "FLFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
