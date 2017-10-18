@@ -28,6 +28,7 @@
 		1F0FF7D21F95725C00C34834 /* NSEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7CE1F9571E900C34834 /* NSEvent.swift */; };
 		1F0FF7D41F95729700C34834 /* NSGraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */; };
 		1F0FF7D51F9572AE00C34834 /* NSRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7CB1F9571B700C34834 /* NSRect.swift */; };
+		1F279B5C1F97C8A600ABC100 /* Cartfile.private in Resources */ = {isa = PBXBuildFile; fileRef = 1F279B5B1F97C8A500ABC100 /* Cartfile.private */; };
 		1F68F64B1F74EB19006A4C4C /* FLFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68F6411F74EB19006A4C4C /* FLFoundation.framework */; };
 		1F68F6521F74EB19006A4C4C /* FLFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F68F6441F74EB19006A4C4C /* FLFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F68F65C1F74EC5F006A4C4C /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68F65B1F74EC5F006A4C4C /* URL.swift */; };
@@ -107,6 +108,7 @@
 		1F0FF7CB1F9571B700C34834 /* NSRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRect.swift; sourceTree = "<group>"; };
 		1F0FF7CE1F9571E900C34834 /* NSEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSEvent.swift; sourceTree = "<group>"; };
 		1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGraphicsContext.swift; sourceTree = "<group>"; };
+		1F279B5B1F97C8A500ABC100 /* Cartfile.private */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 		1F68F6411F74EB19006A4C4C /* FLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F68F6441F74EB19006A4C4C /* FLFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLFoundation.h; sourceTree = "<group>"; };
 		1F68F6451F74EB19006A4C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				1F68F6721F74FDE7006A4C4C /* Cartfile */,
+				1F279B5B1F97C8A500ABC100 /* Cartfile.private */,
 				1F68F6741F74FE70006A4C4C /* Cartfile.resolved */,
 				1F68F6761F74FE81006A4C4C /* Frameworks */,
 				1F68F6771F74FE87006A4C4C /* Debug Symbols */,
@@ -420,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F68F6731F74FDE8006A4C4C /* Cartfile in Resources */,
+				1F279B5C1F97C8A600ABC100 /* Cartfile.private in Resources */,
 				1F68F6751F74FE70006A4C4C /* Cartfile.resolved in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
