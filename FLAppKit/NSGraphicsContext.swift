@@ -8,8 +8,8 @@
 
 import AppKit
 
-extension NSGraphicsContext {
-  func with(compositingOperation: NSCompositingOperation, thunk: () -> ()) {
+public extension NSGraphicsContext {
+  public func with(compositingOperation: NSCompositingOperation, thunk: () -> ()) {
     let previous = self.compositingOperation
     self.compositingOperation = compositingOperation
     thunk()
