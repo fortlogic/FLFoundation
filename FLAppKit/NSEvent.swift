@@ -8,8 +8,8 @@
 
 import AppKit
 
-extension NSEvent {
-  func location(inView view: NSView) -> NSPoint {
+public extension NSEvent {
+  public func location(inView view: NSView) -> NSPoint {
     let location = self.locationInWindow
     return view.convert(location, from: nil)
   }
