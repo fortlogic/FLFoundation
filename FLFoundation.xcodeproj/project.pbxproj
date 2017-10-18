@@ -6,6 +6,21 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1F279B501F97C6DF00ABC100 /* All Frameworks */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F279B511F97C6E000ABC100 /* Build configuration list for PBXAggregateTarget "All Frameworks" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1F279B571F97C6EE00ABC100 /* PBXTargetDependency */,
+				1F279B551F97C6EB00ABC100 /* PBXTargetDependency */,
+			);
+			name = "All Frameworks";
+			productName = "All Frameworks";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1F0FF7BD1F95716B00C34834 /* FLAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FF7B41F95716B00C34834 /* FLAppKit.framework */; };
 		1F0FF7C21F95716B00C34834 /* FLAppKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FF7C11F95716B00C34834 /* FLAppKitTests.swift */; };
@@ -28,6 +43,20 @@
 
 /* Begin PBXContainerItemProxy section */
 		1F0FF7BE1F95716B00C34834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F68F6381F74EB19006A4C4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0FF7B31F95716B00C34834;
+			remoteInfo = FLAppKit;
+		};
+		1F279B541F97C6EB00ABC100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F68F6381F74EB19006A4C4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F68F6401F74EB19006A4C4C;
+			remoteInfo = FLFoundation;
+		};
+		1F279B561F97C6EE00ABC100 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F68F6381F74EB19006A4C4C /* Project object */;
 			proxyType = 1;
@@ -77,7 +106,6 @@
 		1F0FF7C31F95716B00C34834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F0FF7CB1F9571B700C34834 /* NSRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRect.swift; sourceTree = "<group>"; };
 		1F0FF7CE1F9571E900C34834 /* NSEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSEvent.swift; sourceTree = "<group>"; };
-		1F0FF7D01F95720C00C34834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F0FF7D31F95729700C34834 /* NSGraphicsContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGraphicsContext.swift; sourceTree = "<group>"; };
 		1F68F6411F74EB19006A4C4C /* FLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F68F6441F74EB19006A4C4C /* FLFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLFoundation.h; sourceTree = "<group>"; };
@@ -155,11 +183,10 @@
 			children = (
 				1F68F6431F74EB19006A4C4C /* FLFoundation */,
 				1F68F64E1F74EB19006A4C4C /* FLFoundationTests */,
-				1F68F6711F74FDD4006A4C4C /* Dependencies */,
 				1F0FF7B51F95716B00C34834 /* FLAppKit */,
 				1F0FF7C01F95716B00C34834 /* FLAppKitTests */,
+				1F68F6711F74FDD4006A4C4C /* Dependencies */,
 				1F68F6421F74EB19006A4C4C /* Products */,
-				1F68F67C1F74FECC006A4C4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,14 +247,6 @@
 				1F68F67A1F74FEB6006A4C4C /* SwiftCheck.framework.dSYM */,
 			);
 			name = "Debug Symbols";
-			sourceTree = "<group>";
-		};
-		1F68F67C1F74FECC006A4C4C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1F0FF7D01F95720C00C34834 /* Foundation.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +364,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					1F279B501F97C6DF00ABC100 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					1F68F6401F74EB19006A4C4C = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
@@ -372,6 +395,7 @@
 				1F68F6491F74EB19006A4C4C /* FLFoundationTests */,
 				1F0FF7B31F95716B00C34834 /* FLAppKit */,
 				1F0FF7BB1F95716B00C34834 /* FLAppKitTests */,
+				1F279B501F97C6DF00ABC100 /* All Frameworks */,
 			);
 		};
 /* End PBXProject section */
@@ -453,6 +477,16 @@
 			isa = PBXTargetDependency;
 			target = 1F0FF7B31F95716B00C34834 /* FLAppKit */;
 			targetProxy = 1F0FF7BE1F95716B00C34834 /* PBXContainerItemProxy */;
+		};
+		1F279B551F97C6EB00ABC100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F68F6401F74EB19006A4C4C /* FLFoundation */;
+			targetProxy = 1F279B541F97C6EB00ABC100 /* PBXContainerItemProxy */;
+		};
+		1F279B571F97C6EE00ABC100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0FF7B31F95716B00C34834 /* FLAppKit */;
+			targetProxy = 1F279B561F97C6EE00ABC100 /* PBXContainerItemProxy */;
 		};
 		1F68F64D1F74EB19006A4C4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -536,6 +570,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.fortlogic.FLAppKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1F279B521F97C6E000ABC100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F279B531F97C6E000ABC100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -757,6 +807,15 @@
 			buildConfigurations = (
 				1F0FF7C71F95716B00C34834 /* Debug */,
 				1F0FF7C81F95716B00C34834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F279B511F97C6E000ABC100 /* Build configuration list for PBXAggregateTarget "All Frameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F279B521F97C6E000ABC100 /* Debug */,
+				1F279B531F97C6E000ABC100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
